@@ -2,9 +2,16 @@ import javax.swing.JOptionPane;
 
 public class Unbirthday {
 	public static void main(String[] args) {
-		JOptionPane.showInputDialog("When's your birthday?");
-		String birthday="September 22nd";
-		JOptionPane.showMessageDialog(null, "Wow, your bday is on "+birthday+"? Well then, Happy Birthday!");
+		String other=JOptionPane.showInputDialog("When's your birthday? (mm/dd)");
+		
+		String birthday="09/22";
+		
+	if(other.equals(birthday)) {
+		
+		JOptionPane.showMessageDialog(null, "Wow, your birthday is today? Happy Birthday! ");
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "Ok. Bye. *walks away*");
 	}
 }
-
+}
