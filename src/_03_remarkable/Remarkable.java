@@ -8,29 +8,12 @@ public class Remarkable {
 public static void main(String[] args) {
 
 		// 1. Save something remarkable about each person in a variable.
-String Alex;
-Alex="Alex is known to be used for all genders";
-String Kevin;
-Kevin="Kevin means handsome in Irish";
-String Lauren;
-Lauren="Lauren means 'sweet of honor' and 'wisdom' in Latin.";
-String Alyssa;
-Alyssa="Alyssa means 'the noble one' in Latin";
+
 		// 2. Ask the user to enter a name. Store their answer in a variable.
-String answer=JOptionPane.showInputDialog("Choose a name from this list: Alyssa, Alex, Kevin, and Lauren: to find a fact about one. (YOU HAVE TOO)"); 
-if(answer.equals(Alex)) {}
-else{
-	JOptionPane.showMessageDialog(null, "There is nothing special about this name. MUAHAHAHAHHAHHAHAHAHAHAHAH");
-	JOptionPane.showMessageDialog(null, "Just kidding! Alex is known to be used for all genders.");
-	JOptionPane.showMessageDialog(null, "You know what, I'm feeling good. Im going to tell you about all the other names!");
-}
-	if(answer.equals(Kevin)) {}
-	else {
-		JOptionPane.showMessageDialog(null,"Kevin means 'handsome' in Irish");
-		if(answer.equals(Alyssa)) {}
-		else {
-			JOptionPane.showMessageDialog(null, "Lauren means 'sweet honor and 'wisdom' in latin.");
-			if(answer.equals(Lauren)) {
+String answer=JOptionPane.showInputDialog("Write your name down below for a fun fact about it!"); 
+{}
+JOptionPane.showMessageDialog(null, answer+" is a remarkable name, because it's your name.");
+	JOptionPane.showMessageDialog(null, "TROLOLOLOLOLO");
 			 {
 				
 		}
@@ -38,6 +21,6 @@ else{
 
 	}
 }
-}
-}
-}
+
+
+

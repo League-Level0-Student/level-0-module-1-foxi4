@@ -4,7 +4,7 @@ public class Unbirthday {
 	public static void main(String[] args) {
 		String other=JOptionPane.showInputDialog("When's your birthday? (mm/dd)");
 		
-		String birthday="09/22";
+		String birthday="9/22";
 		
 	if(other.equals(birthday)) {
 		
